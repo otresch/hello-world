@@ -28,6 +28,7 @@ namespace WpfHelloWorld01
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
             Console.WriteLine("Button clicked.");
+            MyTextBlock.Text += " again";
         }
     }
 }
